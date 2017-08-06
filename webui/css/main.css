@@ -1,0 +1,117 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Overpass, sans-serif;
+    width: 100%;
+}
+
+.login-box {
+    background-color: #eee;
+    border-radius: 6px;
+    display: block;
+    margin: 20vh auto;
+    text-align: center;
+    padding: 40px;
+    width: 350px;
+}
+
+input {
+    font-family: Overpass, sans-serif;
+}
+
+.tight-container {
+    padding: 20vh;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+.nav-item {
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: block;
+    margin: 4px 0;
+    padding: 8px 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.nav-item:hover {
+    background-color: #eee;
+}
+
+.nav-item.activated {
+    background-color: #3f51b5;
+    color: #eee;
+}
+
+.container-main {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: top;
+    width: 700px;
+}
+
+.panel {
+    background-color: #ddd;
+    border-radius: 6px;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.panel p {
+    margin: 0;
+    padding: 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+table {
+    border: none;
+    margin: 0;
+    text-align: left;
+}
+
+th, td {
+    border: none;
+    margin: 0;
+    padding: 6px 8px;
+    vertical-align: middle;
+}
+
+tr:hover {
+    background-color: #fcfcfc;
+}
+
+.table-status {
+    font-size: 16px;
+    margin: 0 5px;
+    vertical-align: top;
+}
+
+.table-status.red {
+    color: #e74c3c;
+}
+
+.table-status.orange {
+    color: #e67e22;
+}
+
+.table-status.yellow {
+    color: #f1c40f;
+}
+
+.table-status.green {
+    color: #2ecc71;
+}
