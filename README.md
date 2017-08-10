@@ -3,7 +3,9 @@
 
 An attempt to implement communicator between ERP (Enterprise Resource Planning) and WMS (Warehouse Management System) is made. For the system implementation we used different components of Microsoft development tools. Microsoft Azure platform is used to implement MySQL database. Microsoft's chatbot framework LUIS (Language Understanding Intelligent Services) was used to implement machine learning algorithm to map data coming from different users to a common warehouse format. Python scripts are used to supply client demands onto the WMS system. Interactive front end is developed using PHP and jQuery.
 
-2. System Design
+---------------------------------------------------------------------------------------------------------------------------------------
+System Design
+---------------------------------------------------------------------------------------------------------------------------------------
 
 The Client supplies the data to the black box in different formats. The black box, which acts as a communicator translates this varied data into a uniform warehouse understandable format. The various steps involved in the functioning of the system involves:
 
@@ -15,7 +17,9 @@ The Client supplies the data to the black box in different formats. The black bo
 
 4. If the client order is repeatedly rejected the shipper would be notified that that particular item is below the threshold and is needed to be refilled.
 
-3. Innovative Design
+---------------------------------------------------------------------------------------------------------------------------------------
+Innovative Design
+---------------------------------------------------------------------------------------------------------------------------------------
 
 The system design is highly automated and very innovative. The following points highlights some of the features of the system:
 
